@@ -30,6 +30,7 @@ import { OrderListPipe } from './pipes/order-list.pipe';
     SectionGenericComponent,
     PlaylistHeaderComponent,
     PlaylistBodyComponent,
+    OrderListPipe,
   ],
 })
 export class SharedModule {}
