@@ -24,6 +24,10 @@ const routes: Routes = [
         (module) => module.HistoryModule
       ),
   },
+  {
+    path: '**',
+    redirectTo: '/tracks',
+  },
 ];
 
 @NgModule({
